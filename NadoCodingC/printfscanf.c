@@ -21,4 +21,9 @@ int main(void) {
 	double d = 4.428;
 	printf("%.2f\n", d); //4.43, 반올림하여 나옴
 	return 0;
+
+	//상수
+	const int year = 2007; //const : 상수선언, 값 변경 금지
+	printf("태어난 년도 : %d\n", year);
+	//year = 2000;
 }
